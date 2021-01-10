@@ -417,7 +417,6 @@ a {
 .activityCardTitle {
 	margin: 1.2rem 1.5rem;
 }
-  
 @media (min-width: 1100px) {
 	.activity {
 		grid-template-columns: repeat(4, 1fr);
@@ -472,7 +471,7 @@ a {
 
 /* Footer */
 
-/* .footer {
+.footer {
 	background-color: #F2F2F2;
 	width: 100%;
 }
@@ -517,4 +516,4 @@ a {
 	.footerColumnLink:last-child {
 		margin-bottom: 0;
 	}
-} */
+}
