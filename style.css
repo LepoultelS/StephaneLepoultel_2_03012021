@@ -1,6 +1,6 @@
 /* Général */
 
-/* @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 body {
 	font-family: "Raleway", "Sans serif";
 	margin: 0;
@@ -14,11 +14,11 @@ a {
 	margin: auto;
 	padding: 0 2rem;
 	box-sizing: border-box;
-} */
+}
   
 /* Header */
 
-/* .header {
+.header {
 	display: grid;
 	align-items: center;
 	max-width: 1440px;
@@ -87,7 +87,7 @@ a {
 	.headerNavLink:hover {
     	border-bottom-color: #0065FC;
 	}
-} */
+}
 
 /* Recherche */
 
