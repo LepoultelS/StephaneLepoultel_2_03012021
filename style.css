@@ -242,7 +242,7 @@ a {
 
 /* Hébergement */
 
-/* .hostingPopular, .hostingMain {
+.hostingPopular, .hostingMain {
 	background-color: #F2F2F2;
 	border-radius: 1.5rem;
 	padding: 2rem;
@@ -381,7 +381,7 @@ a {
 	  grid-template-columns: 1fr;
 	  grid-template-rows: auto repeat(3, 9rem);
 	}
-} */
+}
 
 /* Activités */
 
