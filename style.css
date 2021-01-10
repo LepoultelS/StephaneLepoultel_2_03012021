@@ -385,7 +385,7 @@ a {
 
 /* Activités */
 
-/* .activity {
+.activity {
 	display: grid;
 	column-gap: 2rem;
 	margin: 4rem 0;
@@ -468,7 +468,7 @@ a {
 		grid-template-columns: 1fr;
 		grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
 	}
-} */
+}
 
 /* Footer */
 
