@@ -216,24 +216,28 @@ a {
 }
 .hostingMainCardFigCapTitle {
 	margin: 0.25rem 0.75rem 0 0.75rem;
+	font-size: 0.9rem;
 }
 .hostingMainCardDesc {
 	margin: 0.25rem 0.75rem 0.25rem 0.75rem;
+	font-size: 0.9rem;
 }
 .hostingMainCardDescPrice {
 	font-weight: bold;
 }
 .hostingMainCardGrade {
-	margin: 0 0.75rem 0.25rem 0.75rem;
+	margin: 0 0.75rem 0rem 0.75rem;
 }
 .hostingMainViewmore {
 	font-weight: 800;
 }
 .hostingMainCardGradeIconFull {
 	color: #0065FC;
+	font-size: 0.9rem;	
 }
 .hostingMainCardGradeIconEmpty {
 	color: #d9d9d9;
+	font-size: 0.9rem;
 }
 .hostingPopularTitle {
 	margin: 0;
@@ -268,7 +272,7 @@ a {
 	flex: 1;
 }
 .hostingPopularCard {
-	height: 9.25rem;
+	height: 8rem;
 	margin-top: 2rem;
 }
 .hostingPopularCardGrade {
@@ -335,7 +339,7 @@ a {
 }
 
 /* Média Queries */
-@media (max-width: 1199.98px) {
+@media (max-width: 1023.9px) {
     /* Hosting */
 	.hostingPopular {
 		grid-row-start: 1;
@@ -365,7 +369,14 @@ a {
 	}
 }
 @media (max-width: 767.98px) {
+
+	.main {
+		padding: 0;
+	}
     /* Search */
+	.search {
+		padding: 1rem;
+	}
     .searchFiltersTitle {
         width: 100%;
       }
@@ -380,19 +391,22 @@ a {
 		grid-template-columns: 1fr;
 		padding-left: 0.5rem;
 		padding-right: 0.5rem;
+		background-color: white;
 	}
 	.hostingPopular{
 		padding-left: 0.5rem;
 		padding-right: 0.5rem;
+		border-radius: 0;
 	}
 	.hostingPopularCard {
-		height: 11rem;
+		height: 9rem;
 	}
 	/* Activity */
 	.activity {
 		row-gap: 2rem;
 		grid-template-columns: 1fr;
 		grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
+		padding: 1rem;
 	}
     /* Footer */
     .footerColumnwrapper {
@@ -415,6 +429,7 @@ a {
 		width: 100%;
 		padding: 0;
 		margin: 1rem 0;
+		padding-top: 1rem;
 	}	
 }
 @media screen and (max-width: 575.98px) {
@@ -445,6 +460,9 @@ a {
         display: flex;
         width: 100%;
       }
+	  .searchFormSubmitinput {
+		  border-radius: 1rem;
+	  }
       .searchFormInput {
         flex: 1;
       }
@@ -484,7 +502,7 @@ a {
 		grid-template-columns: repeat(3, 1fr);
 	}
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
     /* Activity */
     .activity {
 		grid-template-columns: repeat(4, 1fr);
